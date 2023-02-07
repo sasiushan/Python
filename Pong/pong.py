@@ -163,7 +163,7 @@ while (True):
 			pen1.clear()
 			os.system("afplay ending_song.wav&")
 			pen.write("Player A Won ! ", align="center", font=("Courier", 30, "normal"))
-			pen1.write("Press p to play....", align="center", font=("Courier", 20, "normal"))
+			pen1.write("Press p to play......", align="center", font=("Courier", 20, "normal"))
 			pause_on_win()
 		if(score_b == 11):
 			reset_score()
@@ -171,7 +171,7 @@ while (True):
 			pen1.clear()
 			os.system("afplay ending_song.wav&")
 			pen.write("Player B Won ! ", align="center", font=("Courier", 30, "normal"))
-			pen1.write("Press p to play....", align="center", font=("Courier", 20, "normal"))
+			pen1.write("Press p to play......", align="center", font=("Courier", 20, "normal"))
 			pause_on_win()
 
 	
